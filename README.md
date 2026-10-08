@@ -1,7 +1,5 @@
 # MotoVox — Ride. Record. Speak.
 
-MotoVox turns your Android phone into an offline audio recorder for motorcycle vlogging. Record your voice from a wired, USB or Bluetooth mic while your action camera films. Mark moments, reduce wind rumble, add voice effects, mix in music, and export WAV or M4A to sync in your editor. No account or internet needed.
-
 Offline Android audio recorder, processor and mixer for motorcycle vloggers. Your action camera records video; MotoVox records
 your voice separately (phone mic, wired/USB mic, or a compatible Bluetooth mic), then helps you clean it up, add music and export
 audio to sync in your video editor. **It is an independent audio companion, not an action-camera replacement.**
@@ -11,14 +9,6 @@ audio to sync in your video editor. **It is an independent audio companion, not 
 > `BUILD_INSTRUCTIONS.md` to build it. Expect to fix a small number of compile errors on first build.
 
 ![preview](branding/preview_sheet.png)
-
-## Quick start: get the APK without installing anything
-1. Create a free, private GitHub repository and upload everything in this folder (including the hidden `.github` folder) to `main`.
-2. Open the **Actions** tab, run **Build MotoVox APK**, and download the **MotoVox-debug-apk** artifact.
-3. Unzip it, copy `app-debug.apk` to your phone, open it and allow installs from that source.
-4. Grant microphone permission, connect your mic, and run **Record → Mic test** before your first ride.
-
-Prefer Android Studio or the Windows command line? See `BUILD_INSTRUCTIONS.md`. If the cloud build fails, copy the red error lines from the log; the code hasn't been compiled yet, so small fixes may be needed.
 
 ## Features (see STATUS.md for the honest checklist)
 - **Record**: WAV 16-bit PCM at 48/44.1 kHz, mono/stereo; pause/resume; foreground service (screen-off); live dBFS meter with
